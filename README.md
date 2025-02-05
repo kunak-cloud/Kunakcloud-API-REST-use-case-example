@@ -29,11 +29,10 @@ Before starting the docker, go to the following files:
 
     - 'app' folder > 'variables.py' file : Edit the username, password, devices and parameter measures to collect.
     - 'app' folder > 'db' folder > 'password.txt' file : In case you would like, edit the password
-    - 
 
 In order to create a container and run it, in the console, run:
 
-    - docker compose up --build
+    docker compose up --build
 
 If you close the containter, you can start it with the previous line of code
 
