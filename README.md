@@ -21,7 +21,7 @@ This program will create in your computer a docker environment with a python con
 ### How to run the docker
 Requirements:
 -   Install WSL 2 and download docker desktop as indicated in the docker manuals: https://docs.docker.com/desktop/features/wsl/
-    - If you already have wsl installed, , in the console, run: wsl --update      
+    - If you already have wsl installed, open the console and run: wsl --update      
 -   Login into docker via:
     -   Console line ('docker login -u <username>')
     -   Docker desktop
