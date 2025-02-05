@@ -45,10 +45,10 @@ Recommended tools:
 -DBeaber
 
 Data to enter when adding a new connection:
--host: 'localhost'
--port: 5433
--user: 'postgres'
--password: 'postgres' by default. In case you would like to modify it, follow the instructions:
+- host: 'localhost'
+- port: 5433
+- user: 'postgres'
+- password: 'postgres' by default. In case you would like to modify it, follow the instructions:
     - Go to  'db' > 'password.txt'
     - Inside this file, edit the password
 
