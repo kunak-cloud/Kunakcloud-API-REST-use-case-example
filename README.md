@@ -41,8 +41,8 @@ In Docker Desktop, go to 'Container section' and click the Play icon to run the 
 
 ### How to connect to Postgres Database:
 Recommended tools:
--If VScode is used, we recommend to install 'PostgreSQL Explorer' extension in order to access to the databases
--DBeaber
+- If VScode is used, we recommend to install 'PostgreSQL Explorer' extension in order to access to the databases
+- DBeaber
 
 Data to enter when adding a new connection:
 - host: 'localhost'
