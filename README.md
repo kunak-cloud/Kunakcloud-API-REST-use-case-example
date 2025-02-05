@@ -26,7 +26,6 @@ Requirements:
     -   Docker desktop
 
 Before starting the docker, go to the following files:
-
     - 'app' folder > 'variables.py' file : Edit the username, password, devices and parameter measures to collect.
     - 'app' folder > 'db' folder > 'password.txt' file : In case you would like, edit the password
 
