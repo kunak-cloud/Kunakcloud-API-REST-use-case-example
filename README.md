@@ -33,7 +33,7 @@ Before starting the docker, go to the following files:
 
 In order to create a container and run it, in the console, run:
 
-'docker compose up --build'
+    - docker compose up --build
 
 If you close the containter, you can start it with the previous line of code
 
