@@ -1,4 +1,4 @@
-url_prefix = 'https://kunakcloud.com/openAPIv0/v1/rest'
+from variables import url_prefix
 
 #    API call methods that were used for this program
 #

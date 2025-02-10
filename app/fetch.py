@@ -53,7 +53,7 @@ def getData ():
             #   If the device table does not exist, the program create a table with the last data collected from devices
             DbCreateTable.createDeviceTable( 'device_data_temporary' )      
 
-            #   We request information from all the devices API call 'List all devices' ( https://kunakair.com/doc/08.Manuals/html/Kunak_APIRest_UserManual_EN.html#_Toc145079310 )  
+            #   We request information from all the devices API call 'List all devices' Please review the 'List all devices' API call in the official Kunak Cloud site   
             #   The information that send is the following: serial nuber, tag, status, last connection, latitude and longitude
             #   We are interested in the serial number and the last connection values.
             device_list = apiDevicesConnectionTime.extract()
@@ -91,7 +91,7 @@ def getData ():
             #   If the location table does not exist, the program create a table with the last data collected from locations
             DbCreateTable.createLocationTable( 'location_data_temporary' )
             
-            #   We request information from all the locations API call 'List all locations' ( https://kunakair.com/doc/08.Manuals/html/Kunak_APIRest_UserManual_EN.html#_Toc145079358 )  
+            #   We request information from all the locations API call 'List all locations'. Please review the 'List all locations' API call in the official Kunak Cloud site  
             #   The information that send is the following: serial nuber, tag, status, last connection, latitude and longitude
             #   We are interested in the serial number and the last connection values.
             location_list = apiLocationsConnectionTime.extract()

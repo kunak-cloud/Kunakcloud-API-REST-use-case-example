@@ -1,9 +1,15 @@
 import datetime
 
-#region Common data
+# User credentials (KunakCloud user and password)
 user =              '' # 'user'
 password =          '' # 'password1234'
 
+# Find out the current url prefix for the API in...
+#   ...the API user manual from Kunak Cloud
+#   ...the API json collection from Kunak Cloud
+url_prefix = ''        #  'https://.....'
+
+# Specify the sensors required to extract data from these parameters.
 sensors =           [  ] # ['PM1', 'PM2.5', 'PM10']
  
 # Timestamp in miliseconds .

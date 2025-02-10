@@ -1,7 +1,7 @@
 # Kunakcloud-API-REST-use-case-example
 
 ### Kunak API rest manual reference:
-https://kunakair.com/doc/08.Manuals/html/Kunak_APIRest_UserManual_EN.html
+Please review the Kunak API rest manual in the official Kunak Cloud site.
 
 ### Considerations before starting
 First, the Kunak device take samples from the sensors (normally, each 5 minutes) and the data is being stored in the internal memory from the device.
