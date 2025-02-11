@@ -1,5 +1,5 @@
 ### Kunak API rest manual reference:
-https://kunakair.com/doc/08.Manuals/html/Kunak_APIRest_UserManual_EN.html
+Please review the Kunak API rest manual in the official Kunak Cloud site.
 
 ### Considerations before starting
     First, the Kunak device take samples from the sensors (normally, each 5 minutes) and the data is being stored in the internal memory from the device.
@@ -25,8 +25,8 @@ Requirements:
 
 Before starting the docker, go to the following files:
 
-    - 'app' folder > 'variables.py' file : Edit the username, password, devices and parameter measures to collect.
-    - 'app' folder > 'db' folder > 'password.txt' file : In case you would like, edit the password
+    - app > variables.py : Edit the username, password, devices and parameter measures to collect.
+    - app > 'db > password.txt : In case you would like, edit the password
     - 
 
 In order to create a container and run it, in the console, run:
@@ -57,6 +57,8 @@ No. Docker read the file 'requirements.txt' and the container does the job of im
 
 ### Data protection ###
 Under 'variables.py' and 'password.txt' files, we can find sensitive data (password, username, etc.). In case you make the files public, it is recommended to leave the user, passwords, credentials, serial numbers and sensors empty
+- app > variables.py : Contain the username, password and url prefix.
+- app > db > password.txt : Contain the password for accessing the postgres database
 
 ### How to remove the Postgres Database:
 In Docker Desktop:
