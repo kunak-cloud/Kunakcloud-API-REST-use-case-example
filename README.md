@@ -59,7 +59,7 @@ No. Docker read the file 'requirements.txt' and the container does the job of im
 ### Data protection ###
 Under 'variables.py' and 'password.txt' files, we can find sensitive data (password, username, etc.). In case you make the files public, it is recommended to leave the user, passwords, credentials, serial numbers and sensors empty.
 - app > variables.py : Contain the username, password and url prefix.
-- app > db > password.txt : Contain the password for accessing the postgres databas
+- app > db > password.txt : Contain the password for accessing the postgres database.
 
 ### How to remove the Postgres Database:
 In Docker Desktop:
